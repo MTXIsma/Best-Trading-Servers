@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b16;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #00c3ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.servers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #00c3ff;
+}
+
+.favorite {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.verified {
+  color: #00ff9d;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.top {
+  background: gold;
+  color: black;
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.details {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.join {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px;
+  background: #00ff9d;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.report {
+  margin-top: 12px;
+  padding: 10px;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.back {
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #00c3ff;
+  font-size: 14px;
+  color: #00c3ff;
+}
+
+footer a {
+  color: #00ff9d;
+  text-decoration: none;
+}
