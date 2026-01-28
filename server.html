@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Server Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="name"></h1>
+  <div>
+    <span id="topBadge" class="top">🏆 Top #1</span>
+    <span id="verified" class="verified">🔐 Verified</span>
+  </div>
+  <button onclick="toggleLang()">🌍 FR / EN</button>
+</header>
+
+<section class="details">
+  <p id="desc"></p>
+
+  <h3>Trust Score</h3>
+  <div id="score"></div>
+
+  <ul id="features"></ul>
+
+  <a id="link" class="join" target="_blank">Join Discord</a>
+
+  <button class="report" onclick="reportServer()">🚨 Report server</button>
+  <p id="reportMsg"></p>
+</section>
+
+<button class="back" onclick="back()">← Back</button>
+
+<footer>
+  <p>Site créé par <b>IswoxX</b> | Contact Discord :
+    <a href="https://discord.com/users/ninjaxxisma" target="_blank">ninjaxxisma</a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
